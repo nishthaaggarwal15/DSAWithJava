@@ -31,15 +31,15 @@ public class closestindex {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the capacity of array");
+        System.out.println("Enter the capacity of array");
         int cap = sc.nextInt();
         int arr[] = new int[cap];
         for(int i =0; i<cap; i++){
-            System.out.println("enter the value of " + i+ "th element");
+            System.out.println("Enter the value of " + i+ "th element");
             arr[i] = sc.nextInt();
         }
-        System.out.println("enter the element you want to search");
+        System.out.println("Enter the element you want to search");
         int target = sc.nextInt();
-        System.out.println("closest index is" + binarySearchClosest(arr,target));
+        System.out.println("Closest index is" + binarySearchClosest(arr,target));
     }
 }
