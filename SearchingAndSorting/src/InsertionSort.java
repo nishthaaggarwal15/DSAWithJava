@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class InsertionSort {
     public static void sort(int arr[]){
         int n = arr.length;
-        for(int i =1; i<n-1;i++){
-            int j = i+1; int temp =arr[i];
+        for(int i =1; i<=n-1;i++){
+            int j = i-1; int temp =arr[i];
             //shifting the element to the right if element is greater than temp
-            while(arr[j]>temp && j>=0){
+            while(j>=0 && arr[j]>temp){
                 arr[j+1]= arr[j];
                 j--;
             }
@@ -26,6 +26,7 @@ public class InsertionSort {
             System.out.println("enter the value of "+ i+"th element");
             arr[i]=sc.nextInt();
         }
+        System.out.println();
         System.out.println("sorted array is:");
         for(int i :arr){
             System.out.print(i+" ");
