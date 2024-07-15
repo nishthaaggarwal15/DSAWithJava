@@ -35,7 +35,7 @@ public class mergesort {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the capacity of first array");
+        System.out.println("Enter the capacity of first array");
         int cap1= sc.nextInt();
         int a[] = new  int[cap1];
         System.out.println("enter the capacity of second array");
