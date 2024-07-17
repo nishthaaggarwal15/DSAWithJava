@@ -56,6 +56,7 @@ public class findsmallestdiff {
                 }
 
                 int result = smallestDifferencePair(arr1, n, arr2, m);
+        System.out.println("Result is:");
                 System.out.println(result);
 
 
