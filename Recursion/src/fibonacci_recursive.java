@@ -12,6 +12,6 @@ public class fibonacci_recursive {
         return fib;
     }
     public static void main(String[] args) {
-        System.out.println("sum of first n fibonacci numbers : "+ recursive(5));
+        System.out.println("Sum of first n fibonacci numbers : "+ recursive(5));
     }
 }
