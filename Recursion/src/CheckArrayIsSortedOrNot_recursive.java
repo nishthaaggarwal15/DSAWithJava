@@ -10,6 +10,16 @@ public class CheckArrayIsSortedOrNot_recursive {
         }
         return Check(arr,size-1);
     }
+    public  static boolean CheckArray(int arr[], int si){
+        if(si==arr.length-1){
+            return true;
+        }
+        if(arr[si]>arr[si+1]){
+            return false;
+        }
+        boolean small = CheckArray(arr,si+1);
+        return  small;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the length of array");
@@ -26,5 +36,6 @@ public class CheckArrayIsSortedOrNot_recursive {
         else{
             System.out.println("array is sorted");
         }
+
     }
 }
