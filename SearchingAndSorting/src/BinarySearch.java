@@ -20,7 +20,7 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the capacity of array");
+        System.out.println("Enter the capacity of array");
         int cap = sc.nextInt();
         int arr[] = new int[cap];
         for(int i =0; i<cap; i++){
