@@ -40,11 +40,11 @@ public class QuickSort_recursive {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the length of array");
+        System.out.println("Enter the length of array");
         int size= sc.nextInt();
         int a[]= new int[size];
         for(int i =0; i<size; i++){
-            System.out.println("enter the value of " + i + " element");
+            System.out.println("Enter the value of " + i + " element");
             a[i]= sc.nextInt();
 
         }
