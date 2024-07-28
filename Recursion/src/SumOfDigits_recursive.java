@@ -10,7 +10,7 @@ public class SumOfDigits_recursive {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter digit");
+        System.out.println("Enter digit");
         int n = sc.nextInt();
         System.out.println(sumOfDigits(n));
     }
