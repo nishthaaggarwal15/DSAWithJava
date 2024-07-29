@@ -14,8 +14,8 @@ public class RemoveXfromString_recursive {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the string :");
+        System.out.println("Enter the string :");
         String str = sc.nextLine();
-        System.out.println("updated String is : " + removeX(str));
+        System.out.println("Updated String is : " + removeX(str));
     }
 }
