@@ -33,7 +33,7 @@ public class lastIndexOfArray_recursive {
             System.out.println("enter the value of " + i + "element");
             arr[i]= sc.nextInt();
         }
-        System.out.println("enter the element you want to search");
+        System.out.println("Enter the element you want to search");
         int x = sc.nextInt();
 
             System.out.println("element found at :" + Find(arr,x)+ " index");
