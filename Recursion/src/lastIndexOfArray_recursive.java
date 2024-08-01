@@ -30,7 +30,7 @@ public class lastIndexOfArray_recursive {
         int n = sc.nextInt();
         int arr[]= new int[n];
         for ( int i =0; i<n; i++){
-            System.out.println("enter the value of " + i + "element");
+            System.out.println("Enter the value of " + i + "element");
             arr[i]= sc.nextInt();
         }
         System.out.println("Enter the element you want to search");
