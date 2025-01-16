@@ -32,5 +32,6 @@ public class bubblesort {
         System.out.println();
         System.out.println("sorted array is:");
         Sort(arr);
+
     }
 }
