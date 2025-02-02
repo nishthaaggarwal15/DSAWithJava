@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DSAWithJava.iml" filepath="$PROJECT_DIR$/DSAWithJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OOPs/OOPs.iml" filepath="$PROJECT_DIR$/OOPs/OOPs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPs-1/OOPs-1.iml" filepath="$PROJECT_DIR$/OOPs-1/OOPs-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPs-2/OOPs-2.iml" filepath="$PROJECT_DIR$/OOPs-2/OOPs-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursion_2/Recursion_2.iml" filepath="$PROJECT_DIR$/Recursion_2/Recursion_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/SearchingAndSorting/SearchingAndSorting.iml" filepath="$PROJECT_DIR$/SearchingAndSorting/SearchingAndSorting.iml" />
