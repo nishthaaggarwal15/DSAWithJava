@@ -8,8 +8,9 @@ public class VehicleUse {
 
 
         Car c = new Car();
-        c.Setcolor("blue"); c.speed = 100;
-        c.print();
+        c.Setcolor("red"); c.speed = 100;
+        c.print(); // immediate parent class method
+        c.printmaxSpeed();
         Bicycle b = new Bicycle();
         b.Setcolor("red");  b.speed = 10;
   // Both Car and Bicyle class will inherit the properties of Vehicle class and will acess them without intitalizing them seperately in each function again and again
