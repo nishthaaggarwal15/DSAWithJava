@@ -1,6 +1,6 @@
 package inheritance_temp;
 
-import Inheritance.Vehicle;
+import Abstractclass.Vehicle;
 
 public class Truck extends Vehicle {
     int capacity;

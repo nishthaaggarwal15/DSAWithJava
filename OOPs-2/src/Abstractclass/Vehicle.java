@@ -1,4 +1,4 @@
-package Inheritance;
+package Abstractclass;
 
 public class Vehicle {
   private  String color;

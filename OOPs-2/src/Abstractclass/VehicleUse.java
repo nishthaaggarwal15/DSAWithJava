@@ -1,4 +1,4 @@
-package Inheritance;
+package Abstractclass;
 
 public class VehicleUse {
     public static void main(String[] args) {

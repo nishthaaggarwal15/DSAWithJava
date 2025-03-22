@@ -1,5 +1,5 @@
 package inheritance_temp;
-import Inheritance.Vehicle;
+import Abstractclass.Vehicle;
 public class VehichleUse2 {
     public static void main(String[] args) {
         Vehicle v = new Vehicle();

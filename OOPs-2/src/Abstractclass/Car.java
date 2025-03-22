@@ -1,4 +1,4 @@
-package Inheritance;
+package Abstractclass;
 
 public class Car extends Vehicle{ // syntax of inheritance
     int numDoors;
