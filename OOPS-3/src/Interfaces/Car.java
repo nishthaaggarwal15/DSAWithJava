@@ -20,3 +20,30 @@ public class Car extends Vehicle implements VehicleInterface , CarInterface{ // 
         return 5;
     }
 }
+// Example
+//Problem statement
+//interface A{
+//    public void method();
+//}
+//class One{
+//    public void method(){
+//        System.out.println("Class One method");
+//    }
+//}
+//class Two extends One implements A{
+//    public void method(){
+//        System.out.println("Class Two method");
+//    }
+//}
+//public class Solution extends Two{
+//    public static void main(String[] args){
+//        A a = new Two();
+//        a.method();
+//    }
+//}
+//Solution description
+//In Java, when you have a reference of an interface type (A in this case) pointing to an object of a class that
+// implements that interface (Two in this case), the method invoked will be based on the actual type of the object at runtime.
+// Here's a breakdown of the code: A a = new Two();: An object of type Two is created, and the reference a of type A is pointing to it.
+// a.method();: This calls the method() declared in interface A. However, since Two implements A and overrides the method(),
+// the overridden method in Two will be executed.
